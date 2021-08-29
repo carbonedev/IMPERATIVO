@@ -1,0 +1,6 @@
+From Igor César to Everyone:  07:44 PM
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+From Luciana Silveira to Everyone:  07:50 PM
+valeu pela extensão, Igor!
+From Willian Sant Anna to Everyone:  07:53 PM
+/*    Alerts    Documentação: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/alert    alert(texto|valor);    Prompts    Documentação: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/prompt    prompt(texto, valor);    Confirm    Documentação: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/confirm    confirm(mensagem);*/

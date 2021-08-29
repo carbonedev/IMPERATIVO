@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <Script type="text/javascript">
+
+        /*
+        1-Os seguinte valores são sempre falsy:
+        false
+        0(zero)
+        '' ou "" (string vazia)            
+        null
+        undefined
+        NaN Ex: (o resultado de 1/0)  
+        
+        2-Todo o resto é truthy, o que inclui (verdadeiras);
+        '0' 
+
+
+
+        */
+
+        //tipo de variavel (objeto)
+        //Cria o objeto
+        var produto = {
+            //propriedade (chave.valor)
+            nome: 'Gel Antisséptico',
+            marca: 'Asseptgel',
+            preço: 13.90.
+        }
+
+        //Acessar o objeto
+        alert(produto.nome);    
+        alert(produto.marca);
+        alert(produto.preco);
+        //condicionais
+        //Switch case
+
+        var diaDaSemana = 'sexta-feira';
+        switch(diaDaSemana){
+            case 'domingo':
+            //instrução
+            break;
+            case 'segunda-feira':
+            //instrução
+            break;
+            case 'terça-feira':
+            //instrução
+            break;
+            case 'quarta-feira':
+            //instrução
+            break;
+            case 'quinta-feira':
+            //instrução
+            break;
+            case 'sexta-feira':
+            //instrução
+            break;
+            case 'sábado':
+            //instrução
+            break;
+            default:
+                alert(`$(diaDaSemana) não é um valor válido.`);
+            break;
+        }
+
+        //if, else if, else
+
+        var placarJogador1 = 1;
+        var placarJogador2 = 0;
+
+        var estaVencendo = placarJogador1 > placarJogador2;
+        var estaEmpatado = placarJogador1 == placarJogador2;
+
+        if (estaVencendo) {
+            alert(`jogador 1 esta vencendo por $(placarJogador1) x $(placarJogador2)`);
+        }       
+        else if (estaEmpatado) {
+            alert(`jogador 1 esta empatado com jogador 2 $(placarJogador1) x $(placarJogador2)`);
+        }
+        else(){
+            alert(`jogador 2 esta vencendo por $(placarJogador2) x $(placarJogador1)`);
+        }
+
+    </Script>
+
+</body>
+</html>
