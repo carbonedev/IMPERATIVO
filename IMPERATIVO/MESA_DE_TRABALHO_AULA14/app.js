@@ -11,6 +11,3 @@ console.log('Depósito:', cliente.depositar(1000));
 console.log('----------------');
 console.log('Saque:', cliente.sacar(2000));
 console.log('Saque:', cliente.sacar(1000));
-
-
-
