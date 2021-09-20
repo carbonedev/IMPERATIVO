@@ -30,3 +30,7 @@ function Cliente(nomeDoCliente, sobrenomenomeDoCliente, numeroDaAgencianomeDoCli
 //Exportar 
 module.exports = Cliente;
 
+<<<<<<< HEAD
+=======
+//
+>>>>>>> 5dc4c00d1b76341548ecba38150dc8ace18f939c

@@ -12,3 +12,7 @@ console.log('----------------');
 console.log('Saque:', cliente.sacar(2000));
 console.log('Saque:', cliente.sacar(1000));
 
+<<<<<<< HEAD
+=======
+//
+>>>>>>> 5dc4c00d1b76341548ecba38150dc8ace18f939c
