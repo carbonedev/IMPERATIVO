@@ -1,0 +1,19 @@
+{
+  "name": "mesa_de_trabalho_aula_17",
+  "version": "1.0.0",
+  "description": "mesa_de_trabalho_aula_17",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carbonedev/IMPERATIVO/tree/main/IMPERATIVO"
+  },
+  "author": "Denis Carbone",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
